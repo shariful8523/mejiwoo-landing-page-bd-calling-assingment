@@ -47,20 +47,21 @@
         justify-content: center; 
         align-items: center;
         background-color: #F7F6F0;
-        width: 90%;
-        max-width: 1100px;
+         width: 1500px;
         height: 600px; 
         
         margin: 20px 0;
         gap: 20px;
         flex-wrap: wrap;
         padding: 20px;
+        gap: 50px;
     }
 
     .BannerImage img {
         width: 160px;
         height: 490px;
         border-radius: 10px;
+        
     }
 
     .Bannertext {
@@ -90,4 +91,42 @@
     background-color: black;
     margin: 10px 0;    
 }
+
+
+/* Season Collections */
+
+  #SeasoneTittle{
+        font-size: 50px;
+    }
+
+     .SeasionCardContainer{
+        display: flex;
+        height: 700px ;
+        width: 1300px;
+        justify-content: space-around;
+        margin-bottom: 50px;
+        margin-top: 30px;
+        text-align: center;
+
+    }
+
+    .cardtext{
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .cardButton{
+        justify-content: center; 
+        align-items: center; 
+        text-align: center;
+
+        width: 100px;
+        height: 50px;
+        border: none;
+        border-radius: 30px;
+        font: bold;
+        font-size: 18px;
+        
+    }
     
