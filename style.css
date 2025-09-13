@@ -1,27 +1,93 @@
-body{
-    margin: 0;
-}
+ * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
-    /* Navbar Section  */
+    body {
+        font-family: Arial, sans-serif;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
 
-       .navbarContainur{
-            display: flex;
-             justify-content: space-between;
-            align-items: center;
-            padding: 15px 40px;
-            background-color: #FFFFFF;
-        }
-     .navbarContainur>ul{
+    /* Navbar Section */
+    .navbarContainur {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 40px;
+        background-color: #FFFFFF;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .navbarContainur > ul {
         list-style: none;
         display: flex;
-        gap: 20PX;
-        font-size: 20px;
+        gap: 20px;
+        font-size: 18px;
+    }
+
+    .navbarContainur > ul > li > a {
+        text-decoration: none;
+        color: #333;
+        font-weight: 500;
+    }
+
+    .navbarContainur > ul > li > a.active {
+        color: #ff4500;
+    }
+
+    /* Banner Section */
+    #BannerContainur {
+        display: flex;     
+        justify-content: center; 
+        align-items: center;
+        background-color: #F7F6F0;
+        width: 90%;
+        max-width: 1100px;
+        height: 600px; 
         
-       }
+        margin: 20px 0;
+        gap: 20px;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
 
-        .navbarContainur>ul>li>a{
-            text-decoration: none;
-            
-         }
+    .BannerImage img {
+        width: 160px;
+        height: 490px;
+        border-radius: 10px;
+    }
 
+    .Bannertext {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+        max-width: 300px;
+    }
 
+    .Bannertext h2 {
+        font-size: 32px;
+        color: #333;
+    }
+
+    .Bannertext p {
+        font-size: 16px;
+        color: #555;
+    }
+
+    .text-divider {
+    width: 80%;          
+    border: none;       
+    height: 2px;       
+    background-color: black;
+    margin: 10px 0;    
+}
+    
