@@ -22,6 +22,10 @@
         padding: 15px 40px;
         background-color: #FFFFFF;
         box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+         position: sticky;
+        top: 0;
+         z-index: 1000;
     }
 
     .navbarContainur > ul {
@@ -131,5 +135,36 @@
     }
 
 
-    /* Our Best Seller */
+
+    /* card hover to zoom  */
+
+.SeasionCardContainer .card1 {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.SeasionCardContainer .card2 {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.SeasionCardContainer .card3 {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.SeasionCardContainer .card1:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.SeasionCardContainer .card2:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.SeasionCardContainer .card3:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+
+
     
