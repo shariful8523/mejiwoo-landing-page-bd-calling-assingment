@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+}
+
+    /* Navbar Section  */
+
+       .navbarContainur{
+            display: flex;
+             justify-content: space-between;
+            align-items: center;
+            padding: 15px 40px;
+            background-color: #FFFFFF;
+        }
+     .navbarContainur>ul{
+        list-style: none;
+        display: flex;
+        gap: 20PX;
+        font-size: 20px;
+        
+       }
+
+        .navbarContainur>ul>li>a{
+            text-decoration: none;
+            
+         }
+
+
